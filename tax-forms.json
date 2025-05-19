@@ -1,0 +1,65 @@
+{
+    "w-2": {
+        "neededForms": [
+            {"name": "Form W-2", "description": "Reports wages, salary, and taxes withheld. Mailed if not provided electronically."},
+            {"name": "Form 1040", "description": "Main individual tax return."}
+        ],
+        "helpfulForms": [
+            {"name": "Schedule A", "description": "Optional. Itemized deductions (if not taking standard deduction)."}
+        ]
+    },
+    "self-emp": {
+        "neededForms": [
+            {"name": "Form 1099-NEC", "description": "Reports income from contract work."},
+            {"name": "Schedule C", "description": "Reports profit/loss from self-employment."},
+            {"name": "Schedule SE ", "description": "Calculates self-employment tax."},
+            {"name": "Form 1040", "description": "Main individual tax return."}
+        ],
+        "helpfulForms": [
+            {"name": "Form 8829", "description": "Used to calculate and deduct expenses for business use of your home."},
+            {"name": "Form 4562", "description": "For deprication and amortization of business assets."}
+        ]
+    },
+    "owner": {
+        "neededForms": [
+            {"name": "Schedule C", "description": "Reports profit/loss from self-employment."},
+            {"name": "Schedule SE ", "description": "Calculates self-employment tax."},
+            {"name": "Form 1040", "description": "Main individual tax return."},
+            {"name": "Form 1065", "description": "If applicable, reprots partnership return."},
+            {"name": "Schedule K-1", "description": "If applicable, report share of business income for partners"}
+        ],
+        "helpfulForms": [
+            {"name": "Form 8829", "description": "Used to calculate and deduct expenses for business use of your home."},
+            {"name": "Form 4562", "description": "For deprication and amortization of business assets."}
+        ]
+    },
+    "student": {
+        "neededForms": [
+            {"name": "Form 1098-T", "description": "Reports tuition paid."},
+            {"name": "Form 8863", "description": "Education credits (American Opportunity or Lifetime Learning)."},
+            {"name": "Form 1040", "description": "Main individual tax return."}
+        ],
+        "helpfulForms": [
+            {"name": "Form W-2", "description": "Reports wages, salary, and taxes withheld. (Part-time job or campus employment)."}
+        ]
+    },
+    "retired": {
+        "neededForms": [
+            {"name": "Form SSA-1099", "description": "Reports Social Security benefits."},
+            {"name": "Form 1099-R", "description": "Reports retirement distributions."},
+            {"name": "Form 1040", "description": "Main individual tax return."}
+        ],
+        "helpfulForms": [
+            {"name": "Form 1040-SR", "description": "Optional version of Form 1040 designed for seniors (larger print)."}
+        ]
+    },
+    "unemp": {
+        "neededForms": [
+            {"name": "Form 1099-G", "description": "Reports unemployment compensation."},
+            {"name": "Form 1040", "description": "Main individual tax return."}
+        ],
+        "helpfulForms": [
+            {"name": "Schedule A", "description": "Optional. Itemized deductions (if not taking standard deduction)."}
+        ]
+    }
+}

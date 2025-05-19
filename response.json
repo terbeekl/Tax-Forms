@@ -1,0 +1,18 @@
+{
+  "neededForms": [
+    {
+      "name": "Form W-2",
+      "description": "Reports wages, salary, and taxes withheld. Mailed if not provided electronically."
+    },
+    {
+      "name": "Form 1040",
+      "description": "Main individual tax return."
+    }
+  ],
+  "helpfulForms": [
+    {
+      "name": "Schedule A",
+      "description": "Optional. Itemized deductions (if not taking standard deduction)."
+    }
+  ]
+}

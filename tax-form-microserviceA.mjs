@@ -26,6 +26,8 @@ app.post('/get-tax-forms', asyncHandler(async (req, res) => {
 
     const formData = formMap[workType];
 
+    console.log("Sending JSON for", workType);
+
     if(!formData){
         return res.status(404).json({ error: 'Work-type not found.'});
     }

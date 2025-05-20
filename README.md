@@ -46,12 +46,15 @@ const requestForm = async () => {
 
 ## C. 
 UML Diagram:
+![image](https://github.com/user-attachments/assets/c165d586-49c8-45cd-a6e9-d33d2656126b)
 
 
 ## How to Communicate Through .txt File Instead:
 If you want to communicate through .txt file instead (not shown in discussion-post video):
 Simply have your program write to work-type.txt the work-type you want
+
 ie: w-2
+
 (being careful about weird text stuff and whitespace, don't insert in the terminal, I found that it breaks the file??! If it does break, just delete work-type.txt and make a new file with the same name)
 
 In your console it should detect that there was a change in the .txt file, and print "Work type recieved" (this means it detects the file change)

@@ -46,6 +46,7 @@ const requestForm = async () => {
 
 ## C. 
 UML Diagram:
+![image](https://github.com/user-attachments/assets/c165d586-49c8-45cd-a6e9-d33d2656126b)
 
 
 ## How to Communicate Through .txt File Instead:
